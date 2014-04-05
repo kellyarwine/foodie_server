@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  qty: 1
+  unit_of_measure: MyString
+  prep: MyString
+  food: MyString
+
+two:
+  qty: 1
+  unit_of_measure: MyString
+  prep: MyString
+  food: MyString

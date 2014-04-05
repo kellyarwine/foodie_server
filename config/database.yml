@@ -1,0 +1,7 @@
+development:
+  adapter: mysql2
+  database: <%= ENV["DEV_DB_DATABASE"] %>
+  username: <%= ENV["DEV_DB_USERNAME"] %>
+  password: <%= ENV["DEV_DB_PASSWORD"] %>
+  host: localhost
+  socket: /tmp/mysql.sock
