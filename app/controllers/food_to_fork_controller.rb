@@ -9,7 +9,7 @@ class FoodToForkController < ActionController::Base
     end
   end
 
-  def search
+  def recipe_search
     response = HTTParty.get("http://food2fork.com/api/search?key=#{F2F_KEY}&q=#{params[:search_terms]}")
 
     respond_to do |format|

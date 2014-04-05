@@ -3,5 +3,5 @@ Foodieapp::Application.routes.draw do
   resources :recipes
 
   match '/recipe/:recipe_id', :to => 'FoodToFork#recipe'
-  match '/search/:search_terms', :to => 'FoodToFork#search'
+  match '/recipe_search/:search_terms', :to => 'FoodToFork#recipe_search'
 end
